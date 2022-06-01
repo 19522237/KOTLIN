@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E1435"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/bar_title_color"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgShoe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:src="@drawable/icons8_sneakers"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Hoạt động "
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/imgShoe"
+                app:layout_constraintLeft_toRightOf="@id/imgShoe"
+                app:layout_constraintTop_toTopOf="@id/imgShoe" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                app:layout_constraintTop_toBottomOf="@id/imgShoe" />
+
+            <TextView
+                android:id="@+id/txtTheoDoi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="THEO DÕI HOẠT ĐỘNG"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Nhấn 'thêm' để theo dõi hoạt động bất kỳ \n bạn muốn!"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtTheoDoi" />
+
+            <Button
+                android:id="@+id/btnTHem"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custombuttom"
+                android:gravity="center"
+                android:text="Thêm"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtDes" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardView1"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/bar_title_color"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgHD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_baseline_punch_clock_24"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Thời gian"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@id/imgHD"
+                    app:layout_constraintLeft_toRightOf="@id/imgHD"
+                    app:layout_constraintTop_toTopOf="@id/imgHD" />
+
+                <TextView
+                    android:id="@+id/txtTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="0 phút"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:visibility="invisible"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgHD" />
+
+                <TextView
+                    android:id="@+id/txtTB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="Trung bình hàng tuần"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgHD" />
+
+                <TextView
+                    android:id="@+id/txtNumBerTimeWeek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="0 phut"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/txtTB" />
+
+            </android.support.constraint.ConstraintLayout>
+
+
+            <com.example.a7minuteworkout.chart.ChartProgressBar
+                android:id="@+id/ChartProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                app:hdBarCanBeClick="true"
+                app:hdBarHeight="170dp"
+                app:hdBarRadius="10dp"
+                app:hdBarTitleColor="@color/white"
+                app:hdBarTitleMarginTop="9dp"
+                app:hdBarTitleSelectedColor="#FFC107"
+                app:hdBarTitleTxtSize="12sp"
+                app:hdBarWidth="15dp"
+                app:hdEmptyColor="@color/empty"
+                app:hdMaxValue="10"
+                app:hdPinBackgroundColor="@color/pin_background"
+                app:hdPinDrawable="@drawable/ic_pin"
+                app:hdPinMarginBottom="55dp"
+                app:hdPinMarginEnd="22dp"
+                app:hdPinMarginStart="8dp"
+                app:hdPinMarginTop="10dp"
+                app:hdPinPaddingBottom="5dp"
+                app:hdPinTextColor="@color/pin_text"
+                app:hdPinTxtSize="17sp"
+                app:hdProgressClickColor="@color/progress_click"
+                app:hdProgressColor="@color/colorAccent"
+                app:hdProgressDisableColor="@color/progress_disable"
+                tools:ignore="MissingClass" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/cardView2"
+        android:id="@+id/btnClearData"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/custombuttom"
+        android:text="Xoá bản ghi trong ngày" />
+
+
+</RelativeLayout>

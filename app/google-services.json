@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "468558295543",
+    "project_id": "java-master-70ca5",
+    "storage_bucket": "java-master-70ca5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468558295543:android:cd076f644d6d31b5c4bef2",
+        "android_client_info": {
+          "package_name": "com.example.a7minuteworkout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468558295543-8tt64oc6e81n72ed74b1oquoctflis7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a7minuteworkout",
+            "certificate_hash": "9f24b7e866e5e7556c25914bdcad77f5772f27c7"
+          }
+        },
+        {
+          "client_id": "468558295543-o73qeo4a8vh2ardm8d1chcr2qqbjv5am.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNG24xElhC42RaW-2hd7LIoUBBQuRYVJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468558295543-o73qeo4a8vh2ardm8d1chcr2qqbjv5am.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
