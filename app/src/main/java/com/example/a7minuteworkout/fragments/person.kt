@@ -40,19 +40,47 @@ class person : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
         var view = inflater.inflate(R.layout.fragment_person, container, false)
-
-        var llStart: LinearLayout? = null;
-        llStart = view.findViewById(R.id.llStart)
-        llStart.setOnClickListener {
-            val intent = Intent(context, CategoryActivity::class.java)
-            startActivity(intent)
-
-        }
         // Inflate the layout for this fragment
+        var fullBody: LinearLayout? = null;
+        fullBody = view.findViewById(R.id.fullBody)
+        fullBody.setOnClickListener{
+            val intent = Intent(context, SecoundExercise::class.java)
+            startActivity(intent)
+        }
+        //-- belly
+        var belly: LinearLayout? = null;
+        belly = view.findViewById(R.id.belly)
+        belly.setOnClickListener{
+            val intent = Intent(context, SecoundExercise::class.java)
+            startActivity(intent)
+        }
+        //-- hand
+        var hand: LinearLayout? = null;
+        hand = view.findViewById(R.id.hand)
+        hand.setOnClickListener{
+            val intent = Intent(context, SecoundExercise::class.java)
+            startActivity(intent)
+        }
+        //-- leg
+        var leg: LinearLayout? = null;
+        leg = view.findViewById(R.id.hand)
+        leg.setOnClickListener{
+            val intent = Intent(context, SecoundExercise::class.java)
+            startActivity(intent)
+        }
+        //-- buttmuscles
+        var buttmuscles: LinearLayout? = null;
+        buttmuscles = view.findViewById(R.id.hand)
+        buttmuscles.setOnClickListener{
+            val intent = Intent(context, SecoundExercise::class.java)
+            startActivity(intent)
+        }
         return view
     }
+
+
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -66,6 +94,7 @@ class person : Fragment() {
 //            startActivity(intent)
 //        }
     }
+
     companion object {
         /**
          * Use this factory method to create a new instance of
