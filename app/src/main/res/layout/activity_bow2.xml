@@ -17,7 +17,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="fill_parent"
                 android:layout_height="200.0dp"
-                android:src="@drawable/abc"/>
+                android:src="@drawable/tap_tay"/>
             <TextView
                 android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
@@ -38,7 +38,7 @@
 
                 android:textSize="20dp"
                 android:layout_marginLeft="10dp"
-                android:text="Tên bài tập"
+                android:text="Tên bài tập: Tập Crunch"
                 >
 
             </TextView>
@@ -46,7 +46,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
-                android:text="con chim non"
+                android:text="Nằm ngửa hai tay đặt sau gáy, gập đầu gối một góc 90 độ so với hông. Nâng hông lên đồng thời đưa đầu gối về phía ngực. Sau đó, từ từ đưa lưng và hông trở về vị trí bắt đầu. Thực hiện 15 lần và lặp lại 3 bộ"
                 android:layout_marginLeft="10dp">
 
             </TextView>

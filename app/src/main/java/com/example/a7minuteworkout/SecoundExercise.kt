@@ -26,12 +26,17 @@ class SecoundExercise :AppCompatActivity() {
                     val intent = Intent(this, BowActivity2::class.java)
                     startActivity(intent)
                 }
+                if(i==3){
+                    val intent = Intent(this, BowActivity3::class.java)
+                    startActivity(intent)
+                }
+                if(i==4){
+                    val intent = Intent(this, BowActivity4::class.java)
+                    startActivity(intent)
+                }
             }
         }
     }
 }
 
-    fun Imagebuttonclicked(view: View) {
-
-    }
 

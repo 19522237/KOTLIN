@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".MongActivity2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="200.0dp"
+                android:src="@drawable/tap_donkey_kicks"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="0dp"
+                android:text="How To Do This"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="Donkey Kicks"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Quỳ gối lên thảm, hai tay chống xuống đất (vuống góc với thân người, hai tay rộng bằng vai)"
+                android:layout_marginLeft="10dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=" Đầu giữ thẳng so với thân người, mắt nhìn xuống sàn. Hai gối gập lại tạo góc 90 độ với cẳng chân. "
+                android:layout_marginLeft="10dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=" Thở ra, nâng chân phải lên cho tới khi nào đùi trong song song với lưng. Căng cứng cơ mông trong khi thực hiện động tác "
+                android:layout_marginLeft="10dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Từ từ hạ chân xuống vị trí ban đầu, kết hợp hít vào."
+                android:layout_marginLeft="10dp">
+
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

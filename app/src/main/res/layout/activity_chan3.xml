@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".ChanActivity3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="200.0dp"
+                android:src="@drawable/sing_leg_romanian_deadlift"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="0dp"
+                android:text="How To Do This"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="Single-Leg Romanian Deadlift"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Bắt đầu với mức tạ nhẹ và tập trung vào việc giữ vai thu lại trong suốt bài tập, kiểm soát chuyển động từ từ trên đường đi xuống. "
+                android:layout_marginLeft="10dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Trên đường trở lại, đẩy gót chân xuống đất, co cơ đùi sau và cơ mông để đưa thân trở lại vị trí thẳng đứng"
+                android:layout_marginLeft="10dp">
+
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

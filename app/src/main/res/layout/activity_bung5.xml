@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".BungActivity5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="200.0dp"
+                android:src="@drawable/tap_gap_bung_voi_bong"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="0dp"
+                android:text="How To Do This"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="Gập bụng với bóng"
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="- Nằm thẳng người, gâp gối bàn chân chạm sàn cố định"
+                android:layout_marginLeft="10dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="- Đặt bóng giữa ngực, gập người cằm chạm vào ngực"
+                android:layout_marginLeft="10dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="- Trọng lượng có thể di chuyển về phía trước 0"
+                android:layout_marginLeft="10dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="- Hạ xuống và lặp lại lưu ý luôn sử dụng lực của bụng để nâng người."
+                android:layout_marginLeft="10dp">
+
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

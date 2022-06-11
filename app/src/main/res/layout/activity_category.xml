@@ -19,7 +19,7 @@
              android:layout_height="wrap_content"
              android:orientation="vertical">
                 <LinearLayout
-                    android:background="@drawable/main_images"
+                    android:background="@drawable/toan_than"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10.0dp"
@@ -55,7 +55,7 @@
 
                 </LinearLayout>
                      <LinearLayout
-                         android:background="@drawable/main_images"
+                         android:background="@drawable/bung"
                          android:layout_width="fill_parent"
                          android:layout_height="wrap_content"
                          android:layout_margin="10.0dp"
@@ -91,7 +91,7 @@
 
                      </LinearLayout>
                      <LinearLayout
-                         android:background="@drawable/main_images"
+                         android:background="@drawable/bung"
                          android:layout_width="fill_parent"
                          android:layout_height="wrap_content"
                          android:layout_margin="10.0dp"
@@ -117,7 +117,7 @@
                                      android:fontFamily="monospace"
                                      android:padding="5.0dp"
                                      android:text="Tập tay"
-                                     android:textColor="@color/white"
+                                     android:textColor="@color/black"
                                      android:textSize="30.0dp"
                                      android:textStyle="bold"/>
                              </LinearLayout>
@@ -127,7 +127,7 @@
 
                      </LinearLayout>
                      <LinearLayout
-                         android:background="@drawable/main_images"
+                         android:background="@drawable/chan"
                          android:layout_width="fill_parent"
                          android:layout_height="wrap_content"
                          android:layout_margin="10.0dp"
@@ -163,7 +163,7 @@
 
                      </LinearLayout>
                      <LinearLayout
-                         android:background="@drawable/main_images"
+                         android:background="@drawable/mong"
                          android:layout_width="fill_parent"
                          android:layout_height="wrap_content"
                          android:layout_margin="10.0dp"

@@ -12,6 +12,72 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.7MinuteWorkout">
         <activity
+            android:name=".MongActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".MongActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MongActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MongActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SixthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChanActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".ChanActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".ChanActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Chanctivity"
+            android:exported="false" />
+        <activity
+            android:name=".FifthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TayActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".TayActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".TayActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".TayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FourthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BungActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".BungActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".BungActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".BungActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".BungActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BowActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".BowActivity3"
+            android:exported="false" />
+        <activity
             android:name=".BowActivity2"
             android:exported="false" />
         <activity

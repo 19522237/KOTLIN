@@ -17,7 +17,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="fill_parent"
                 android:layout_height="200.0dp"
-                android:src="@drawable/abc"/>
+                android:src="@drawable/tap_gap_bung"/>
             <TextView
                 android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
@@ -46,7 +46,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
-                android:text="jkhsdgfjkdhsfjhsdak;jfhsdak;jfhkjsrfhkj;sdhk;jsdhfakjsdahfkjshdakj;h"
+                android:text="Bắt đầu ngồi và giữ thăng bằng trên mông với chân thẳng tạo thành hình chữ V. Giữ cột sống thẳng với cánh tay dang rộng. Giữ trong khoảng 30-90 giây. Lặp lại 3 lần."
                 android:layout_marginLeft="10dp">
 
             </TextView>
