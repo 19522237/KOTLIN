@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".MongActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="200.0dp"
+                android:src="@drawable/squat_nhun"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="0dp"
+                android:text="How To Do This"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="sQuat Nhún"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Hai chân mở rộng bằng vai, đứng thẳng, hai tay đan lại với nhau để trước ngực, bụng hóp lại và vai mở rộng;"
+                android:layout_marginLeft="10dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=" Bạn đẩy hông và mông ra phía sau hết sức có thể, từ từ hạ thấp cơ thể xuống cho đến khi phần đùi song song với sàn nhà. "
+                android:layout_marginLeft="10dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Cùng lúc đó, bạn cố gắng để đầu gối của mình và bàn chân hướng ra ngoài. Hai tay vẫn giữ nguyên. "
+                android:layout_marginLeft="10dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Cổ, vai và mông tạo thành một đường xiên, mắt nhìn lên, ngực thẳng và hóp bụng."
+                android:layout_marginLeft="10dp">
+
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

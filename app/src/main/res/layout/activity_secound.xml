@@ -46,7 +46,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Tập hông"
+                                android:text="Tập Chiếc Thuyền"
                                 android:textAllCaps="true"
                                 android:textColor="@color/black"
                                 android:textSize="15dp"
@@ -72,7 +72,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/abc"
+                                android:src="@drawable/tap_gap_bung_voi_bong"
                                 />
 
                         </LinearLayout>
@@ -121,7 +121,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Tập hông"
+                                android:text="Tập Crunch"
                                 android:textAllCaps="true"
                                 android:textColor="@color/black"
                                 android:textSize="15dp"
@@ -147,7 +147,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/abc"
+                                android:src="@drawable/tap_gap_bung"
                                 />
 
                         </LinearLayout>
@@ -196,7 +196,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Tập hông"
+                                android:text="Tập Kiểu Leo Núi"
                                 android:textAllCaps="true"
                                 android:textColor="@color/black"
                                 android:textSize="15dp"
@@ -222,7 +222,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/abc"
+                                android:src="@drawable/tap_gap_bung_nang_chan"
                                 />
 
                         </LinearLayout>
@@ -271,7 +271,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Tập hông"
+                                android:text="Tập Hông Một Bên"
                                 android:textAllCaps="true"
                                 android:textColor="@color/black"
                                 android:textSize="15dp"
@@ -297,7 +297,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/abc"
+                                android:src="@drawable/taphong_mot_ben"
                                 />
 
                         </LinearLayout>
@@ -323,159 +323,18 @@
 
 
                 </LinearLayout>
-                <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="100.0dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="vertical">
-                    <LinearLayout
-                        android:onClick="Imagebuttonclicked"
-                        android:id="@+id/boat_pose5"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10.0dp"
-                        android:orientation="horizontal">
-                        <LinearLayout
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="10.0dp"
-                            android:layout_weight="1.0"
-                            android:orientation="vertical">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="monospace"
-                                android:text="Tập hông"
-                                android:textAllCaps="true"
-                                android:textColor="@color/black"
-                                android:textSize="15dp"
-                                android:textStyle="bold"/>
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="1 time"
-                                android:textStyle="bold"
-                                />
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="1:00 phút"
-                                android:textStyle="bold"
-                                android:textColor="#ffff5722"/>
-
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="2.0">
-                            <pl.droidsonroids.gif.GifImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/abc"
-                                />
-
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:layout_weight="0.0"
-                            >
-                            <ImageView
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_margin="5.0dp"
-                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
-                        </LinearLayout>
-                    </LinearLayout>
-                    <TableRow
-                        android:layout_width="fill_parent"
-                        android:layout_height="1.0dp"
-                        android:background="#fffaa9a9"
-                        />
 
 
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="100.0dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="vertical">
-                    <LinearLayout
-                        android:onClick="Imagebuttonclicked"
-                        android:id="@+id/boat_pose6"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10.0dp"
-                        android:orientation="horizontal">
-                        <LinearLayout
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="10.0dp"
-                            android:layout_weight="1.0"
-                            android:orientation="vertical">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="monospace"
-                                android:text="Tập hông"
-                                android:textAllCaps="true"
-                                android:textColor="@color/black"
-                                android:textSize="15dp"
-                                android:textStyle="bold"/>
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="1 time"
-                                android:textStyle="bold"
-                                />
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="1:00 phút"
-                                android:textStyle="bold"
-                                android:textColor="#ffff5722"/>
-
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="2.0">
-                            <pl.droidsonroids.gif.GifImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/abc"
-                                />
-
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:layout_weight="0.0"
-                            >
-                            <ImageView
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_margin="5.0dp"
-                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
-                        </LinearLayout>
-                    </LinearLayout>
-                    <TableRow
-                        android:layout_width="fill_parent"
-                        android:layout_height="1.0dp"
-                        android:background="#fffaa9a9"
-                        />
-
-
-                </LinearLayout>
 
             </LinearLayout>
         </ScrollView>
+        <Button
+            android:id="@+id/btnGetStart"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn"
+            android:text="GET STARTED"/>
     </LinearLayout>
 
 

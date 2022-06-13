@@ -35,20 +35,20 @@ import kotlinx.android.synthetic.main.activity_exercise.*
          startActivity(intent)
      }
      fun belly(view: View) {
-         val intent=Intent(this,ExerciseActivity::class.java)
+         val intent=Intent(this,ThirdExercise::class.java)
          startActivity(intent)
      }
 
      fun hand(view: View) {
-         val intent=Intent(this,ExerciseActivity::class.java)
+         val intent=Intent(this,FourthActivity::class.java)
          startActivity(intent)
      }
      fun leg(view: View) {
-         val intent=Intent(this,ExerciseActivity::class.java)
+         val intent=Intent(this,FifthActivity::class.java)
          startActivity(intent)
      }
      fun buttmuscles(view: View) {
-         val intent=Intent(this,ExerciseActivity::class.java)
+         val intent=Intent(this,SixthActivity::class.java)
          startActivity(intent)
      }
 

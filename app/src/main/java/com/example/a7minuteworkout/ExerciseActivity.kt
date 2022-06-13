@@ -16,9 +16,10 @@ import javax.net.ssl.SSLEngineResult
 import kotlin.collections.ArrayList
 import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.activity_exercise.*
 
-class ExerciseActivity : AppCompatActivity(),TextToSpeech.OnInitListener {
+public class ExerciseActivity : AppCompatActivity(),TextToSpeech.OnInitListener {
     var progressbar: ProgressBar ?=null;
     var progressBarExercise :ProgressBar?= null
     var tvTimer: TextView?=null;
@@ -164,8 +165,7 @@ class ExerciseActivity : AppCompatActivity(),TextToSpeech.OnInitListener {
         }
         speakOut(exerciseList!![currentExercisePosition].getName())
         setExerciseProgressBar()
-        imgGif?.setImageResource(exerciseList!![currentExercisePosition].getImage())
-        ivImage?.setImageResource(exerciseList!![currentExercisePosition].getImage())
+        Glide.with(this).load(exerciseList!![currentExercisePosition].getImage()).into(findViewById(R.id.ivImage))
         tvExerciseName?.text=exerciseList!![currentExercisePosition].getName()
     }
 

@@ -3,6 +3,7 @@ package com.example.a7minuteworkout
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 class SecoundExercise :AppCompatActivity() {
@@ -10,6 +11,11 @@ class SecoundExercise :AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_secound)
+        val button = findViewById<Button>(R.id.btnGetStart);
+        button.setOnClickListener{
+                val intent = Intent(this, ExerciseActivity::class.java)
+                startActivity(intent)
+            }
         }
 
     fun Imagebuttonclicked(view: View) {
@@ -24,6 +30,14 @@ class SecoundExercise :AppCompatActivity() {
                 }
                 if (i==2){
                     val intent = Intent(this, BowActivity2::class.java)
+                    startActivity(intent)
+                }
+                if (i==3){
+                    val intent = Intent(this, BowActivity3::class.java)
+                    startActivity(intent)
+                }
+                if (i==4){
+                    val intent = Intent(this, BowActivity4::class.java)
                     startActivity(intent)
                 }
             }
