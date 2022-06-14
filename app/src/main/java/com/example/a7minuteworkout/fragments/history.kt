@@ -35,16 +35,17 @@ class history : Fragment() {
             param2 = it.getString(ARG_PARAM2)
         }
     }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        currentHistoryPosition =-1
         // Inflate the layout for this fragment
+        this.historyList = storeHistory.defaultHistory();
+        print(historyList);
         val inflaterr= inflater.inflate(R.layout.fragment_history, container, false)
         var view: LinearLayout = inflaterr.findViewById(R.id.listHistory);
-        historyList = storeHistory.defaultHistory();
-        if (currentHistoryPosition< historyList?.size!!-1){
+        while (currentHistoryPosition< historyList?.size!!-1){
             val rowView = inflater.inflate(R.layout.card_history,null);
             var cardDetail: LinearLayout = rowView.findViewById(R.id.card_detail);
             cardDetail.removeView(rowView);
@@ -60,11 +61,9 @@ class history : Fragment() {
             img?.setImageResource(historyList!![currentHistoryPosition+1].getImage());
             (cardDetail.getParent() as LinearLayout).removeView(cardDetail)
             view.addView(cardDetail);
+            currentHistoryPosition++;
         }
-
-
         return inflaterr;
-
     }
 
     companion object {

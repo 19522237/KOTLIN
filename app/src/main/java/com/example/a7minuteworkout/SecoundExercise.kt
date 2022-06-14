@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import java.util.*
 
 class SecoundExercise :AppCompatActivity() {
     var newArray = arrayOf<Int>(R.id.boat_pose1, R.id.boat_pose2, R.id.boat_pose3, R.id.boat_pose4)
@@ -13,6 +14,8 @@ class SecoundExercise :AppCompatActivity() {
         setContentView(R.layout.activity_secound)
         val button = findViewById<Button>(R.id.btnGetStart);
         button.setOnClickListener{
+                val a = historyModel(1,"Tập toàn thân", R.drawable.toan_than, "1-1-2001");
+                storeHistory.addHistory(a);
                 val intent = Intent(this, ExerciseActivity::class.java)
                 startActivity(intent)
             }

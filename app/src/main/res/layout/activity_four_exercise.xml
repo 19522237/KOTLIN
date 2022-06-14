@@ -6,7 +6,7 @@
     android:layout_height="fill_parent"
     android:background="#FFFFFF"
     android:orientation="vertical"
-    tools:context=".ThirdActivity">
+    tools:context=".ThirdExercise">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -31,7 +31,7 @@
                     android:orientation="vertical">
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/boat_pose1"
+                        android:id="@+id/tay_pose1"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -46,7 +46,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Tập bụng với bóng"
+                                android:text="Tập đánh tay"
                                 android:textAllCaps="true"
                                 android:textColor="@color/black"
                                 android:textSize="15dp"
@@ -72,7 +72,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/tap_gap_bung_voi_bong"
+                                android:src="@drawable/danh_tay"
                                 />
 
                         </LinearLayout>
@@ -106,7 +106,7 @@
                     android:orientation="vertical">
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/boat_pose2"
+                        android:id="@+id/tay_pose2"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -121,7 +121,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Tập Crunch"
+                                android:text="Tập Nâng Tay"
                                 android:textAllCaps="true"
                                 android:textColor="@color/black"
                                 android:textSize="15dp"
@@ -147,7 +147,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/tap_gap_bung"
+                                android:src="@drawable/nang_tay"
                                 />
 
                         </LinearLayout>
@@ -181,7 +181,7 @@
                     android:orientation="vertical">
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/boat_pose3"
+                        android:id="@+id/tay_pose3"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -196,7 +196,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Tập kiểu leo núi"
+                                android:text="Tập Bắp Tay"
                                 android:textAllCaps="true"
                                 android:textColor="@color/black"
                                 android:textSize="15dp"
@@ -222,7 +222,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/tap_leo_nui"
+                                android:src="@drawable/tap_tay"
                                 />
 
                         </LinearLayout>
@@ -256,7 +256,7 @@
                     android:orientation="vertical">
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/boat_pose4"
+                        android:id="@+id/tay_pose4"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -271,7 +271,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Tập Hông Một Bên"
+                                android:text="Tập xoay tay"
                                 android:textAllCaps="true"
                                 android:textColor="@color/black"
                                 android:textSize="15dp"
@@ -297,7 +297,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/taphong_mot_ben"
+                                android:src="@drawable/xoay_tay"
                                 />
 
                         </LinearLayout>
@@ -323,13 +323,15 @@
 
 
                 </LinearLayout>
+
+
 
 
 
             </LinearLayout>
         </ScrollView>
         <Button
-            android:id="@+id/btnGetStart"
+            android:id="@+id/btnGetStart2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"

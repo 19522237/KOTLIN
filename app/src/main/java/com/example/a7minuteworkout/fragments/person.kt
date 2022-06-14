@@ -52,26 +52,26 @@ class person : Fragment() {
         var belly: LinearLayout? = null;
         belly = view.findViewById(R.id.belly)
         belly.setOnClickListener{
-            val intent = Intent(context, ThirdActivity::class.java)
+            val intent = Intent(context, ThirdExercise::class.java)
             startActivity(intent)
         }
         //-- hand
         var hand: LinearLayout? = null;
         hand = view.findViewById(R.id.hand)
         hand.setOnClickListener{
-            val intent = Intent(context, SecoundExercise::class.java)
+            val intent = Intent(context, FourExercise::class.java)
             startActivity(intent)
         }
         //-- leg
         var leg: LinearLayout? = null;
-        leg = view.findViewById(R.id.hand)
+        leg = view.findViewById(R.id.leg)
         leg.setOnClickListener{
             val intent = Intent(context, SecoundExercise::class.java)
             startActivity(intent)
         }
         //-- buttmuscles
         var buttmuscles: LinearLayout? = null;
-        buttmuscles = view.findViewById(R.id.hand)
+        buttmuscles = view.findViewById(R.id.buttmuscles)
         buttmuscles.setOnClickListener{
             val intent = Intent(context, SecoundExercise::class.java)
             startActivity(intent)

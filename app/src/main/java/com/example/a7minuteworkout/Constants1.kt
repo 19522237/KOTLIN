@@ -1,6 +1,6 @@
 package com.example.a7minuteworkout
 import java.util.*
-class Constants {
+class Constants1 {
     companion object {
 
         // The drawable images used here is added in the drawable folder.
@@ -12,18 +12,16 @@ class Constants {
             val exerciseList = ArrayList<ExerciseModel>()
 
             val jumpingJacks =
-                ExerciseModel(1, "Tập bụng với bóng", R.drawable.tap_gap_bung_voi_bong, false, false)
+                ExerciseModel(1, "Gập bụng", R.drawable.tap_gap_bung, false, false)
             exerciseList.add(jumpingJacks)
-
-            val wallSit = ExerciseModel(2, "Tập Crunch", R.drawable.tap_crunch, false, false)
+            val wallSit = ExerciseModel(2, "Gập bụng ếch", R.drawable.tap_gap_bung_ech, false, false)
             exerciseList.add(wallSit)
-
-            val pushUp = ExerciseModel(3, "Tập Kiểu Leo Núi", R.drawable.tap_leo_nui, false, false)
+            val wallSit1 = ExerciseModel(3, "Gập bụng nâng chân", R.drawable.tap_gap_bung_nang_chan, false, false)
+            exerciseList.add(wallSit1)
+            val pushUp = ExerciseModel(4, "Gập bụng ngược", R.drawable.tap_gap_bung_nguoc, false, false)
             exerciseList.add(pushUp)
-            val pushUp1 = ExerciseModel(3, "Tập Hông Một Bên", R.drawable.taphong_mot_ben, false, false)
+            val pushUp1 = ExerciseModel(5, "Gập bụng với bóng", R.drawable.tap_gap_bung_voi_bong, false, false)
             exerciseList.add(pushUp1)
-
-
             return exerciseList
         }
     }

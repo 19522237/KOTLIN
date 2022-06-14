@@ -1,16 +1,16 @@
 package com.example.a7minuteworkout
-import java.util.*
 
-class storeHistory {
-    companion object{
-        private val historyList = ArrayList<historyModel>();
-        fun defaultHistory(): ArrayList<historyModel>{
-            val test= historyModel(1,"test1",R.drawable.ic_abdominal_crunch,"17-17-2001");
-            historyList.add(test);
-            return historyList;
+class storeHistory{
+    companion object name{
+        @JvmField
+        val historyList = ArrayList<historyModel>()
+        @JvmStatic
+        fun defaultHistory(): ArrayList<historyModel> {
+            return historyList
         }
+        @JvmStatic
         fun addHistory(historyModel: historyModel){
-            this.historyList.add(historyModel);
+            historyList.add(historyModel);
         }
     }
 }

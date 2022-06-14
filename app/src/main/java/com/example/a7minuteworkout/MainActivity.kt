@@ -13,11 +13,10 @@ import com.example.a7minuteworkout.fragments.history
 import com.example.a7minuteworkout.fragments.person
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() {
+public class MainActivity : AppCompatActivity() {
     private val personFragment = person()
     private val chartFragment = chart()
     private val historyFragment = history()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

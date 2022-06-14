@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.7MinuteWorkout">
         <activity
+            android:name=".FourExercise"
+            android:exported="false" />
+        <activity
+            android:name=".ExerciseTay"
+            android:exported="false" />
+        <activity
+            android:name=".ExerciseBung"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdExercise"
+            android:exported="false" />
+        <activity
             android:name=".ThirdActivity"
             android:exported="false" />
         <activity
@@ -42,6 +54,14 @@
             android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".SecoundExercise"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".FourActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".FifthActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Design.NoActionBar" />
         <activity
