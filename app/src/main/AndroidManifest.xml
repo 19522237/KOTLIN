@@ -24,7 +24,19 @@
             android:name=".ThirdExercise"
             android:exported="false" />
         <activity
-            android:name=".ThirdActivity"
+            android:name=".BungActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BungActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".BungActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".BungActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".BungActivity5"
             android:exported="false" />
         <activity
             android:name=".BowActivity4"
@@ -54,14 +66,6 @@
             android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".SecoundExercise"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.Design.NoActionBar" />
-        <activity
-            android:name=".FourActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.Design.NoActionBar" />
-        <activity
-            android:name=".FifthActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Design.NoActionBar" />
         <activity

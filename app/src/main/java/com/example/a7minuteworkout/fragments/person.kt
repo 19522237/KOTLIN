@@ -59,7 +59,7 @@ class person : Fragment() {
         var hand: LinearLayout? = null;
         hand = view.findViewById(R.id.hand)
         hand.setOnClickListener{
-            val intent = Intent(context, FourExercise::class.java)
+            val intent = Intent(context, SecoundExercise::class.java)
             startActivity(intent)
         }
         //-- leg

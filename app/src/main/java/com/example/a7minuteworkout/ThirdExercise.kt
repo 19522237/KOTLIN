@@ -26,19 +26,23 @@ class ThirdExercise : AppCompatActivity() {
             if (view.id==item)
             {
                 if (i==1) {
-                    val intent = Intent(this, BowActivity::class.java)
+                    val intent = Intent(this, BungActivity::class.java)
                     startActivity(intent)
                 }
                 if (i==2){
-                    val intent = Intent(this, BowActivity2::class.java)
+                    val intent = Intent(this, BungActivity2::class.java)
                     startActivity(intent)
                 }
                 if (i==3){
-                    val intent = Intent(this, BowActivity3::class.java)
+                    val intent = Intent(this, BungActivity3::class.java)
                     startActivity(intent)
                 }
                 if (i==4){
-                    val intent = Intent(this, BowActivity4::class.java)
+                    val intent = Intent(this, BungActivity4::class.java)
+                    startActivity(intent)
+                }
+                if (i==5){
+                    val intent = Intent(this, BungActivity5::class.java)
                     startActivity(intent)
                 }
             }
