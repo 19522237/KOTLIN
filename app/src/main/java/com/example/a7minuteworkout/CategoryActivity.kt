@@ -35,7 +35,7 @@ import kotlinx.android.synthetic.main.activity_exercise.*
          startActivity(intent)
      }
      fun belly(view: View) {
-         val intent=Intent(this,ThirdExercise::class.java)
+         val intent=Intent(this,ThirdActivity::class.java)
          startActivity(intent)
      }
 

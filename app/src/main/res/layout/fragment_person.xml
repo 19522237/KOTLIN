@@ -21,9 +21,9 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <LinearLayout
-                android:background="@drawable/main_images"
+                android:background="@drawable/toan_than"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:layout_margin="10.0dp"
                 android:layout_marginTop="15.0dp"
 
@@ -47,7 +47,7 @@
                             android:fontFamily="monospace"
                             android:padding="5.0dp"
                             android:text="Tập Toàn Thân"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:textSize="30.0dp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -57,9 +57,9 @@
 
             </LinearLayout>
             <LinearLayout
-                android:background="@drawable/main_images"
+                android:background="@drawable/bung"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:layout_margin="10.0dp"
                 android:layout_marginTop="15.0dp"
 
@@ -83,7 +83,7 @@
                             android:fontFamily="monospace"
                             android:padding="5.0dp"
                             android:text="Tập cơ bụng"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:textSize="30.0dp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -93,9 +93,9 @@
 
             </LinearLayout>
             <LinearLayout
-                android:background="@drawable/main_images"
+                android:background="@drawable/tap_tay"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:layout_margin="10.0dp"
                 android:layout_marginTop="15.0dp"
 
@@ -119,7 +119,7 @@
                             android:fontFamily="monospace"
                             android:padding="5.0dp"
                             android:text="Tập tay"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:textSize="30.0dp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -129,9 +129,9 @@
 
             </LinearLayout>
             <LinearLayout
-                android:background="@drawable/main_images"
+                android:background="@drawable/chan"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:layout_margin="10.0dp"
                 android:layout_marginTop="15.0dp"
 
@@ -155,7 +155,7 @@
                             android:fontFamily="monospace"
                             android:padding="5.0dp"
                             android:text="Tập Chân"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:textSize="30.0dp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -165,9 +165,9 @@
 
             </LinearLayout>
             <LinearLayout
-                android:background="@drawable/main_images"
+                android:background="@drawable/mong"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:layout_margin="10.0dp"
                 android:layout_marginTop="15.0dp"
 
@@ -191,7 +191,7 @@
                             android:fontFamily="monospace"
                             android:padding="5.0dp"
                             android:text="Tập Mông"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:textSize="30.0dp"
                             android:textStyle="bold"/>
                     </LinearLayout>

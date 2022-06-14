@@ -17,7 +17,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="fill_parent"
                 android:layout_height="200.0dp"
-                android:src="@drawable/tap_tay"/>
+                android:src="@drawable/tap_crunch"/>
             <TextView
                 android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
@@ -38,7 +38,7 @@
 
                 android:textSize="20dp"
                 android:layout_marginLeft="10dp"
-                android:text="Tên bài tập: Tập Crunch"
+                android:text="Tập Crunch"
                 >
 
             </TextView>

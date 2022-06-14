@@ -46,7 +46,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Tập Chiếc Thuyền"
+                                android:text="Tập bụng với bóng"
                                 android:textAllCaps="true"
                                 android:textColor="@color/black"
                                 android:textSize="15dp"
@@ -196,7 +196,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Tập Kiểu Leo Núi"
+                                android:text="Tập kiểu leo núi"
                                 android:textAllCaps="true"
                                 android:textColor="@color/black"
                                 android:textSize="15dp"
@@ -222,7 +222,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/tap_gap_bung_nang_chan"
+                                android:src="@drawable/tap_leo_nui"
                                 />
 
                         </LinearLayout>

@@ -6,17 +6,17 @@ import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
-class SecoundExercise :AppCompatActivity() {
+class ThirdActivity :AppCompatActivity() {
     var newArray = arrayOf<Int>(R.id.boat_pose1, R.id.boat_pose2, R.id.boat_pose3, R.id.boat_pose4)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_secound)
         val button = findViewById<Button>(R.id.btnGetStart);
         button.setOnClickListener{
-                val intent = Intent(this, ExerciseActivity::class.java)
-                startActivity(intent)
-            }
+            val intent = Intent(this, ExerciseActivity::class.java)
+            startActivity(intent)
         }
+    }
 
     fun Imagebuttonclicked(view: View) {
         var i=0;

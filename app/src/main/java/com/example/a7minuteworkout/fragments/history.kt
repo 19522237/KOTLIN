@@ -1,11 +1,16 @@
 package com.example.a7minuteworkout.fragments
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
+import android.widget.LinearLayout
+import android.widget.TextView
+import androidx.fragment.app.Fragment
 import com.example.a7minuteworkout.R
+import com.example.a7minuteworkout.historyModel
+import com.example.a7minuteworkout.storeHistory
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -21,7 +26,8 @@ class history : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
-
+    private var historyList: ArrayList<historyModel>?= null
+    private var currentHistoryPosition =-1
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -35,7 +41,30 @@ class history : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_history, container, false)
+        val inflaterr= inflater.inflate(R.layout.fragment_history, container, false)
+        var view: LinearLayout = inflaterr.findViewById(R.id.listHistory);
+        historyList = storeHistory.defaultHistory();
+        if (currentHistoryPosition< historyList?.size!!-1){
+            val rowView = inflater.inflate(R.layout.card_history,null);
+            var cardDetail: LinearLayout = rowView.findViewById(R.id.card_detail);
+            cardDetail.removeView(rowView);
+            var content: TextView?=null;
+            var date: TextView?=null;
+            var time:TextView?=null;
+            var img: ImageView?=null;
+            content = cardDetail.findViewById(R.id.content);
+            date = cardDetail.findViewById(R.id.date);
+            img= cardDetail.findViewById(R.id.image);
+            content?.text=historyList!![currentHistoryPosition+1].getName();
+            date?.text=historyList!![currentHistoryPosition+1].getTime();
+            img?.setImageResource(historyList!![currentHistoryPosition+1].getImage());
+            (cardDetail.getParent() as LinearLayout).removeView(cardDetail)
+            view.addView(cardDetail);
+        }
+
+
+        return inflaterr;
+
     }
 
     companion object {

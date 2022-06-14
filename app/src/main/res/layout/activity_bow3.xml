@@ -30,26 +30,18 @@
                 >
 
             </TextView>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
 
-
-                android:textSize="20dp"
                 android:layout_marginLeft="10dp"
-                android:text="Tên bài tập: Tập Kiểu Leo Núi"
-                >
+                android:text="Tập Kiểu Leo Núi"
+                android:textSize="20dp">
 
             </TextView>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:text="Đây là bài tập đốt cháy calo cực kì hiệu quả, bắt đầu ở một vị trí cánh tay dang rộng dưới vai và chân mở rộng thẳng với chân rộng ngang hông (cơ thể nên tạo một đường thẳng từ đầu đến gót chân)."
-                android:layout_marginLeft="10dp">
 
-            </TextView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

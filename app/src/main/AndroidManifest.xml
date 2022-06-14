@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.7MinuteWorkout">
         <activity
+            android:name=".ThirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BowActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".BowActivity3"
+            android:exported="false" />
+        <activity
             android:name=".BowActivity2"
             android:exported="false" />
         <activity
