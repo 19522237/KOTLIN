@@ -14,8 +14,7 @@ class SecoundExercise :AppCompatActivity() {
         setContentView(R.layout.activity_secound)
         val button = findViewById<Button>(R.id.btnGetStart);
         button.setOnClickListener{
-                val a = historyModel(1,"Tập toàn thân", R.drawable.toan_than, "1-1-2001");
-                storeHistory.addHistory(a);
+
                 val intent = Intent(this, ExerciseActivity::class.java)
                 startActivity(intent)
             }

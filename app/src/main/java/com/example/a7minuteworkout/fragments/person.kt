@@ -1,16 +1,20 @@
 package com.example.a7minuteworkout.fragments
 
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
+import androidx.annotation.RequiresApi
 import com.example.a7minuteworkout.*
 import com.example.a7minuteworkout.fragments.person
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_person.*
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -36,15 +40,21 @@ class person : Fragment() {
         }
     }
 
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         var view = inflater.inflate(R.layout.fragment_person, container, false)
+        val current = LocalDateTime.now()
+        val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS")
+        val formatted = current.format(formatter)
         // Inflate the layout for this fragment
         var fullBody: LinearLayout? = null;
         fullBody = view.findViewById(R.id.fullBody)
         fullBody.setOnClickListener{
+            val a = historyModel(1,"Tập toàn thân", R.drawable.toan_than, formatted);
+            storeHistory.addHistory(a);
             val intent = Intent(context, SecoundExercise::class.java)
             startActivity(intent)
         }
@@ -52,6 +62,8 @@ class person : Fragment() {
         var belly: LinearLayout? = null;
         belly = view.findViewById(R.id.belly)
         belly.setOnClickListener{
+            val a = historyModel(2,"Tập bụng", R.drawable.bung, formatted);
+            storeHistory.addHistory(a);
             val intent = Intent(context, ThirdExercise::class.java)
             startActivity(intent)
         }
@@ -59,6 +71,8 @@ class person : Fragment() {
         var hand: LinearLayout? = null;
         hand = view.findViewById(R.id.hand)
         hand.setOnClickListener{
+            val a = historyModel(1,"Tập Tay", R.drawable.tap_tay, formatted);
+            storeHistory.addHistory(a);
             val intent = Intent(context, SecoundExercise::class.java)
             startActivity(intent)
         }
@@ -66,6 +80,8 @@ class person : Fragment() {
         var leg: LinearLayout? = null;
         leg = view.findViewById(R.id.leg)
         leg.setOnClickListener{
+            val a = historyModel(1,"Tập chân", R.drawable.chan, formatted);
+            storeHistory.addHistory(a);
             val intent = Intent(context, SecoundExercise::class.java)
             startActivity(intent)
         }
@@ -73,6 +89,8 @@ class person : Fragment() {
         var buttmuscles: LinearLayout? = null;
         buttmuscles = view.findViewById(R.id.buttmuscles)
         buttmuscles.setOnClickListener{
+            val a = historyModel(1,"Tập mông", R.drawable.mong, formatted);
+            storeHistory.addHistory(a);
             val intent = Intent(context, SecoundExercise::class.java)
             startActivity(intent)
         }

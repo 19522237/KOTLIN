@@ -13,8 +13,7 @@ class ThirdExercise : AppCompatActivity() {
         setContentView(R.layout.activity_third_exercise)
         val button = findViewById<Button>(R.id.btnGetStart1);
         button.setOnClickListener{
-            val a = historyModel(1,"Tập bụng", R.drawable.bung, "1-1-2001");
-            storeHistory.addHistory(a);
+
             val intent = Intent(this, ExerciseBung::class.java)
             startActivity(intent)
         }

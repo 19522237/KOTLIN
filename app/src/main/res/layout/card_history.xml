@@ -2,7 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="100dp"
-    >
+    android:id="@+id/aaaa"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".detailActivity">
     <LinearLayout
         android:layout_marginTop="10dp"
         android:background="#FFFFFF"
@@ -13,8 +15,7 @@
         android:gravity="center"
         android:orientation="vertical">
         <LinearLayout
-            android:onClick="Imagebuttonclicked"
-            android:id="@+id/boat_pose1"
+            android:id="@+id/cardddd"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10.0dp"

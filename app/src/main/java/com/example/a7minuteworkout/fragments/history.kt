@@ -56,6 +56,7 @@ class history : Fragment() {
             content = cardDetail.findViewById(R.id.content);
             date = cardDetail.findViewById(R.id.date);
             img= cardDetail.findViewById(R.id.image);
+            cardDetail.id=currentHistoryPosition+2;
             content?.text=historyList!![currentHistoryPosition+1].getName();
             date?.text=historyList!![currentHistoryPosition+1].getTime();
             img?.setImageResource(historyList!![currentHistoryPosition+1].getImage());
