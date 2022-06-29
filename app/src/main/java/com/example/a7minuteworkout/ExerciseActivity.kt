@@ -33,10 +33,10 @@ public class ExerciseActivity : AppCompatActivity(),TextToSpeech.OnInitListener 
     private var exerciseList: ArrayList<ExerciseModel>?=null
     private var currentExercisePosition =-1
     private var restProgress=0
-    private var restTimerDuration: Long=9
+    private var restTimerDuration: Long=5
     private var exerciseTimer: CountDownTimer? = null
     private var exerciseProgress=0
-    private var exerciseTimerDuration: Long =10
+    private var exerciseTimerDuration: Long =5
     //private var pauseOffset: Long =0
     private var tts: TextToSpeech?= null
     private var player: MediaPlayer?=null
@@ -97,8 +97,8 @@ public class ExerciseActivity : AppCompatActivity(),TextToSpeech.OnInitListener 
         {
             override fun onTick(millisUtiFinished: Long) {
                 restProgress++
-                progressbar?.progress=10-restProgress
-                tvTimer?.text=(10-restProgress).toString()
+                progressbar?.progress=5-restProgress
+                tvTimer?.text=(5-restProgress).toString()
             }
 
             override fun onFinish() {

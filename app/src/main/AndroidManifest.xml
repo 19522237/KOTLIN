@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.7MinuteWorkout">
         <activity
+            android:name=".activity_caculator"
+            android:exported="false" />
+        <activity
             android:name=".FourExercise"
             android:exported="false" />
         <activity

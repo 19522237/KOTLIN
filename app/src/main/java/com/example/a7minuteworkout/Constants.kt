@@ -20,7 +20,7 @@ class Constants {
 
             val pushUp = ExerciseModel(3, "Tập Kiểu Leo Núi", R.drawable.tap_leo_nui, false, false)
             exerciseList.add(pushUp)
-            val pushUp1 = ExerciseModel(3, "Tập Hông Một Bên", R.drawable.taphong_mot_ben, false, false)
+            val pushUp1 = ExerciseModel(4, "Tập Hông Một Bên", R.drawable.taphong_mot_ben, false, false)
             exerciseList.add(pushUp1)
 
 
